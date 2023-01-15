@@ -290,6 +290,120 @@ span{
     padding:20px 60px;
     background-color:rgba(255,144,14,0.1);
     text-align: center;
-
 }
+@media only screen and (max-width: 668px) {
+    .navigation-main {
+      flex-direction:column;
+      text-align:center;
+    }
+    .nav-logo{
+        font-size:48px;
+        font-weight:700;
+        margin-left:auto;
+        margin-right:auto;
+        padding:50px;
+    }
+    .nav-list{
+        display:flex;
+        justify-content:center;
+        flex-wrap:nowrap;
+        flex-direction: column;
+        gap:16px;
+        color:#424242;
+        font-size:30px;
+    }
+    .banner-header{
+        font-size:48px;
+        font-weight:700px;
+        text-align:center;
+        color:#131313;
+    }
+    .banner{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        flex-wrap:wrap;
+        margin-top:50px;
+        text-align:center;
+        width:90%;
+        gap:20px;
+    }
+    .banner-para{
+        margin-top:18px;
+        text-align:center;
+        font-size:24px;
+        font-weight:400px;
+        color:#131313;
+    }
+    .banner-img{
+        display:block;
+        width:100%;
+        margin-left:0px;
+        max-width:fit-content;
+        height:615px;
+    }
+    .content{
+        margin-top:20px;
+        margin-right:20px;
+    }
+    .content-para{
+        font-size:24px;
+        font-weight:400px;
+        color:black;
+        margin-top:10px;
+        margin-bottom:15px;
+    }
+    .service{
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-start;
+        flex-direction: column;
+       /* display:grid;
+        grid-template-columns:5fr 4fr;
+        justify-content: center;*/
+        width:100%;
+        padding:20px;
+    }
+    .service-side-head{
+      font-size: 24px;
+      font-weight:700px;
+    }
+    .service-content{
+      font-size:22px;
+      font-weight:600px;
+      color:#131313;
+    }
+    .award>div{
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count:1;
+      }
+      .about-head{
+        font-size:45px;
+        font-weight: 700px;
+        color:#131313;
+    }
+    .about-content{
+        font-size:36px;
+        font-weight:400;
+        color:black;
+        margin-top:26px;
+    }
+    .sponspors-para{
+        margin-top:10px;
+        font-size:36px;
+        font-weight:400px;
+        color:black;
+    } 
+    .our-sponspors{
+        margin-top:20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+        padding:50px;
+        flex-wrap:nowrap;
+    } 
+  }
 
